@@ -153,9 +153,7 @@ while True:
         y_cobra = altura
     if y_cobra > altura:
         y_cobra = 0
-
-
-
+        
     if len(lista_cobra) > comprimento_inicial:
         del lista_cobra[0]
     
@@ -163,10 +161,4 @@ while True:
 
     tela.blit(texto_formatado, (400, 40)) # Coloca o texto na tela
 
-
-
-    
-
     pygame.display.update()  # atualiza a tela
-
- 
